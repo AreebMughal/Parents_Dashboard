@@ -1,0 +1,122 @@
+    /*
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+     Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) 
+    .sticky + .content {
+      padding-top: 60px;
+    }*/
+    
+.navbar-toggler.navbar-toggler {
+    border-color: lightblue;
+    background-color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.changePassword{
+    border: 2px solid #1f172728;
+    margin-top: 80px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.adminbd{
+    background: #e4e6e7;
+}
+
+.marquee{
+    margin-top: 100px;
+    max-width: 650px;
+}
+
+.dash1,.dash2{
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+}
+.dash2{
+    margin-top: 0px;
+}
+.ic{
+    border-radius: 15px;
+    background: #69a5ff;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.dashLink:hover{
+    text-decoration: none;
+}
+.dashLink{
+    color: black;
+}
+.image{
+    max-width: 170px;
+    max-height: 150px;
+}
+
+#rollname{
+	font-size: 20px;
+}
+.time{
+	margin-top: 100px;
+}
+
+h3{
+    text-align: center;
+}
+.feed{
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.but{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.is{
+	margin-top: 150px;
+	}
+.m{
+		margin-top: 80px;
+	}
+.t{
+   margin-top: 100px;
+
+}
+
+.printDownbutton{
+    margin-left: 950px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+.head{
+    font-weight: bold;
+}
+

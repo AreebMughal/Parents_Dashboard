@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="//cdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="//cdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<script>
+            $(document).ready(function () {
+$('.navbar-light .dropdown').hover(function () {
+        $(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.dropdown-menu').first().stop(true, true).slideUp(105)
+    });
+});
+    </script>
+<body>
+    
+   <h1>adhsg</h1>
+        <nav class="navbar navbar-expand-md navbar-light bg-secondary sticky-top">
+                <a class="navbar-brand" href="index.php">
+                    <span class=""></span> Parents Dashboard</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" 
+                aria-controls="collapsibleNavId">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId" style="margin-left: 10%;">
+                    <ul class="navbar-nav  mr-auto mt-2 mt-lg-0 nav-right nav-tabs nav-fill col-md-8">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Feedback.php">Feedback</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" onmouseenter="show()" onmouseleave="hide()">
+                                Academics</a>
+                            <div class="dropdown-menu" id="myDropdown">
+                                <a class="dropdown-item" href="AcademicRecord.php">Academic Record</a>
+                                <a class="dropdown-item" href="ClassPerformance.php">Class Performance</a>
+                                <a class="dropdown-item" href="AttendanceDetail.php">Attendance Detail</a>
+                                <a class="dropdown-item" href="TimeTable.php">Time Table</a>
+                                <a class="dropdown-item" href="DateSheet.php">Date Sheet</a>
+                                <a class="dropdown-item" href="IssuedBook.php">Issued Book Record</a>
+                                <a class="dropdown-item" href="SchoolCalendar.php">School Calendar</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown">
+                                Details</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="FeeDetail.php">Fee Details</a>
+                                <a class="dropdown-item" href="TeacherDetail.php">Teacher Details</a>
+                                <a class="dropdown-item" href="RegistrationDetail.php">Registration Details</a>
+                                <a class="dropdown-item" href="ScholarshipDetail.php">Scholarship Details</a>
+                            </div>    
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown">
+                                Profile Setup</a>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="ProfileDetail.php">Profile Detail</a>
+                                <a class="dropdown-item" href="ChangePassword.php">Change Password</a>
+                            </div>    
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Logout.php">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>  
+</body>
+</html>
